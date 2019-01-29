@@ -1,0 +1,13 @@
+{
+    "name": "forseti/crawlerxpath",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/dom-crawler": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "CrawlerXpath\\src\\": "src/"
+        }
+    }
+}
